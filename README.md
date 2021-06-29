@@ -24,7 +24,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 create heroku app and connect to gitlab
 
 
-heroku create sidytest
+heroku create sidytest <br>
 heroku git:remote -a tp-3il-sidney
 add file : Procfile and insert -> web: python main.py
 add file : runtime.txt and insert -> python-3.9.2
